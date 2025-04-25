@@ -1,3 +1,3 @@
-let x = 2
-let y = 2
-console.log (2+2)
+let x = 3
+let y = 3
+console.log (3+3)
