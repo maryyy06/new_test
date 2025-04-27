@@ -3,6 +3,5 @@ let introduction = 90,
    js = 120;
  let averageScore = (introduction + git + js) / 3;
  let studentFirstName = "Marina";
- studentLastName = "Kozlova";
- 
- console.log(`The average score of the student ${studentFirstName} ${studentLastName} is ${averageScore.toFixed(2)}`);
+ let studentLastName = "Kozlova";
+ console.log(`The average score of the student ${studentFirstName.slice(0,1)}. ${studentLastName} is ${averageScore.toFixed(2)}`);
